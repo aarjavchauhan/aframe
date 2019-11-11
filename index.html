@@ -10,50 +10,49 @@
       <a-camera></a-camera>
     </a-entity>
 
-
-
     <a-entity light="type:point; intensity: 0.75; distance: 50; decay: 2" position="0 0 0"></a-entity>
 
-    <a-entity light="type: directional; color: #EEE; intensity: 0.5" position="-1 1 0"></a-entity>
+    <a-entity light="type: directional; color: #EEE; intensity: 1; decay: 2" position="-1 1 0"></a-entity>
+
 
     <a-sky color="black"></a-sky>
 
     <a-sphere src="assets/sun.jpg" radius="3" position="0 0 0"></a-sphere>
 
     <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000">
-      <a-sphere position="5.7 0 0" src="assets/mercury.jpg"></a-sphere>
+      <a-sphere position="5.7 0 0" radius="0.2" src="assets/mercury.jpg"></a-sphere>
     </a-entity>
 
     <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 6000">
-      <a-sphere position="10.8 0 0" src="assets/venus.jpg"></a-sphere>
+      <a-sphere position="10.8 0 0" radius="0.35" src="assets/venus.jpg"></a-sphere>
     </a-entity>
 
     <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
-      <a-sphere position="15 0 0" src="assets/earth.png"></a-sphere>
+      <a-sphere position="15 0 0" radius="0.35" src="assets/earth.png"></a-sphere>
     </a-entity>
 
     <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 19000">
-      <a-sphere position="22.8 0 0" src="assets/mars.jpg"></a-sphere>
+      <a-sphere position="22.8 0 0" radius="0.3" src="assets/mars.jpg"></a-sphere>
     </a-entity>
 
     <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 119000">
-      <a-sphere position="77.9 0 0" src="assets/jupiter.jpg"></a-sphere>
+      <a-sphere position="77.9 0 0" radius="2.5" src="assets/jupiter.jpg"></a-sphere>
     </a-entity>
 
     <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 295000">
-      <a-sphere position="143 0 0" src="assets/saturn.jpg"></a-sphere>
+      <a-sphere position="143 0 0" radius="2" src="assets/saturn.jpg"></a-sphere>
     </a-entity>
 
     <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 840000">
-      <a-sphere position="288 0 0" src="assets/uranus.jpg"></a-sphere>
+      <a-sphere position="288 0 0" radius="1.5" src="assets/uranus.jpg"></a-sphere>
     </a-entity>
 
     <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 1640000">
-      <a-sphere position="450 0 0" src="assets/neptune.jpg"></a-sphere>
+      <a-sphere position="450 0 0" radius="1.5" src="assets/neptune.jpg"></a-sphere>
     </a-entity>
 
     <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 2470000">
-      <a-sphere position="591 0 0" src="assets/pluto.jpg"></a-sphere>
+      <a-sphere position="591 0 0" radius="0.1" src="assets/pluto.jpg"></a-sphere>
     </a-entity>
 
   </a-scene>
